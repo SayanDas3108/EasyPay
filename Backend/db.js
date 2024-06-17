@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://Sayan:7LCn8k9l7b4WbbZW@cluster0.g56ejl5.mongodb.net/');
+  await mongoose.connect('YOUR MongoDB Instance');
 }
 
 const User_Schema = new mongoose.Schema({  // Just a Schema to tell what type of data to be stored
